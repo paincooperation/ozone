@@ -4,7 +4,7 @@
   "description": "",
   "main": "dist/main.js",
   "scripts": {
-	"postinstall": "npm install && tsc && chmod +x dist/main.js"
+    "postinstall": "node dist/postinstall.js"
   },
   "bin": "dist/main.js",
   "repository": {
@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/paincooperation/ozone/issues"
   },
-  "homepage": "https://github.com/paincooperation/ozone#readme"
+  "homepage": "https://github.com/paincooperation/ozone#readme",
+  "devDependencies": {
+    "@types/node": "^24.0.4"
+  }
 }
