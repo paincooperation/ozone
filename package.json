@@ -1,0 +1,21 @@
+{
+  "name": "ozone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/main.js",
+  "scripts": {
+	"postinstall": "npm install && tsc && chmod +x dist/main.js"
+  },
+  "bin": "dist/main.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paincooperation/ozone.git"
+  },
+  "keywords": [],
+  "author": "paincooperation",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paincooperation/ozone/issues"
+  },
+  "homepage": "https://github.com/paincooperation/ozone#readme"
+}
